@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9DF71915560EBD00834B78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9DF71815560EBD00834B78 /* UIKit.framework */; };
+		DD9DF71B15560EBD00834B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9DF71A15560EBD00834B78 /* Foundation.framework */; };
+		DD9DF71D15560EBD00834B78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9DF71C15560EBD00834B78 /* CoreGraphics.framework */; };
+		DD9DF72315560EBD00834B78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD9DF72115560EBD00834B78 /* InfoPlist.strings */; };
+		DD9DF72515560EBD00834B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DF72415560EBD00834B78 /* main.m */; };
+		DD9DF72915560EBD00834B78 /* UTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DF72815560EBD00834B78 /* UTAppDelegate.m */; };
+		DD9DF72C15560EBD00834B78 /* UTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DF72B15560EBD00834B78 /* UTViewController.m */; };
+		DD9DF72F15560EBD00834B78 /* UTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9DF72D15560EBD00834B78 /* UTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD9DF71415560EBD00834B78 /* UTDemo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTDemo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9DF71815560EBD00834B78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD9DF71A15560EBD00834B78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD9DF71C15560EBD00834B78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD9DF72015560EBD00834B78 /* UTDemo01-Info.plist */ = {isa = PBXFileReference; path = "UTDemo01-Info.plist"; sourceTree = "<group>"; };
+		DD9DF72215560EBD00834B78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD9DF72415560EBD00834B78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD9DF72615560EBD00834B78 /* UTDemo01-Prefix.pch */ = {isa = PBXFileReference; path = "UTDemo01-Prefix.pch"; sourceTree = "<group>"; };
+		DD9DF72715560EBD00834B78 /* UTAppDelegate.h */ = {isa = PBXFileReference; path = UTAppDelegate.h; sourceTree = "<group>"; };
+		DD9DF72815560EBD00834B78 /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAppDelegate.m; sourceTree = "<group>"; };
+		DD9DF72A15560EBD00834B78 /* UTViewController.h */ = {isa = PBXFileReference; path = UTViewController.h; sourceTree = "<group>"; };
+		DD9DF72B15560EBD00834B78 /* UTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTViewController.m; sourceTree = "<group>"; };
+		DD9DF72E15560EBD00834B78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9DF71115560EBD00834B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9DF71915560EBD00834B78 /* UIKit.framework in Frameworks */,
+				DD9DF71B15560EBD00834B78 /* Foundation.framework in Frameworks */,
+				DD9DF71D15560EBD00834B78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9DF70915560EBD00834B78 = {
+			isa = PBXGroup;
+			children = (
+				DD9DF71E15560EBD00834B78 /* UTDemo01 */,
+				DD9DF71715560EBD00834B78 /* Frameworks */,
+				DD9DF71515560EBD00834B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9DF71515560EBD00834B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DF71415560EBD00834B78 /* UTDemo01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9DF71715560EBD00834B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DF71815560EBD00834B78 /* UIKit.framework */,
+				DD9DF71A15560EBD00834B78 /* Foundation.framework */,
+				DD9DF71C15560EBD00834B78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9DF71E15560EBD00834B78 /* UTDemo01 */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DF72715560EBD00834B78 /* UTAppDelegate.h */,
+				DD9DF72815560EBD00834B78 /* UTAppDelegate.m */,
+				DD9DF72A15560EBD00834B78 /* UTViewController.h */,
+				DD9DF72B15560EBD00834B78 /* UTViewController.m */,
+				DD9DF72D15560EBD00834B78 /* UTViewController.xib */,
+				DD9DF71F15560EBD00834B78 /* Supporting Files */,
+			);
+			path = UTDemo01;
+			sourceTree = "<group>";
+		};
+		DD9DF71F15560EBD00834B78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DF72015560EBD00834B78 /* UTDemo01-Info.plist */,
+				DD9DF72115560EBD00834B78 /* InfoPlist.strings */,
+				DD9DF72415560EBD00834B78 /* main.m */,
+				DD9DF72615560EBD00834B78 /* UTDemo01-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9DF71315560EBD00834B78 /* UTDemo01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9DF73215560EBD00834B78 /* Build configuration list for PBXNativeTarget "UTDemo01" */;
+			buildPhases = (
+				DD9DF71015560EBD00834B78 /* Sources */,
+				DD9DF71115560EBD00834B78 /* Frameworks */,
+				DD9DF71215560EBD00834B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTDemo01;
+			productName = UTDemo01;
+			productReference = DD9DF71415560EBD00834B78 /* UTDemo01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9DF70B15560EBD00834B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DD9DF70E15560EBD00834B78 /* Build configuration list for PBXProject "UTDemo01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD9DF70915560EBD00834B78;
+			productRefGroup = DD9DF71515560EBD00834B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9DF71315560EBD00834B78 /* UTDemo01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9DF71215560EBD00834B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9DF72315560EBD00834B78 /* InfoPlist.strings in Resources */,
+				DD9DF72F15560EBD00834B78 /* UTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9DF71015560EBD00834B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9DF72515560EBD00834B78 /* main.m in Sources */,
+				DD9DF72915560EBD00834B78 /* UTAppDelegate.m in Sources */,
+				DD9DF72C15560EBD00834B78 /* UTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD9DF72115560EBD00834B78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9DF72215560EBD00834B78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD9DF72D15560EBD00834B78 /* UTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9DF72E15560EBD00834B78 /* en */,
+			);
+			name = UTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9DF73015560EBD00834B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD9DF73115560EBD00834B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9DF73315560EBD00834B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UTDemo01/UTDemo01-Prefix.pch";
+				INFOPLIST_FILE = "UTDemo01/UTDemo01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD9DF73415560EBD00834B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UTDemo01/UTDemo01-Prefix.pch";
+				INFOPLIST_FILE = "UTDemo01/UTDemo01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9DF70E15560EBD00834B78 /* Build configuration list for PBXProject "UTDemo01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9DF73015560EBD00834B78 /* Debug */,
+				DD9DF73115560EBD00834B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9DF73215560EBD00834B78 /* Build configuration list for PBXNativeTarget "UTDemo01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9DF73315560EBD00834B78 /* Debug */,
+				DD9DF73415560EBD00834B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9DF70B15560EBD00834B78 /* Project object */;
+}
